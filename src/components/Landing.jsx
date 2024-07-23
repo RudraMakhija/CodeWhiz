@@ -237,8 +237,11 @@ const Landing = () => {
       Developed and maintained by Rudra Makhija.
     </div>
     <div className="flex gap-4 text-2xl text-white">
-      <FaLinkedin className="cursor-pointer" />
-      <FaGithub className="cursor-pointer" />
+
+    <a  href="https://www.linkedin.com/in/rudramakhija/" target="blank"> <FaLinkedin className="cursor-pointer hover:text-red-600 duration-300" /></a>
+     
+     <a href="https://github.com/RudraMakhija" target="blank"><FaGithub className="cursor-pointer hover:text-red-600 duration-300" /></a>
+      
     </div>
   </footer>
 </div>
